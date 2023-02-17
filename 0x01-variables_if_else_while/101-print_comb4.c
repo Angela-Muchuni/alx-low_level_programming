@@ -13,7 +13,7 @@ int main(void)
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = '0'; ones <= '9'; ones++)
+		for (tens = '0'; tens <= '9'; ones++)
 		{
 			for (ones = '0'; ones <= '9'; ones++)
 			{
