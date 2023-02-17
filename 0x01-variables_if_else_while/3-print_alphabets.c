@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line
  *
  * Return: Always 0 (success)
  */
@@ -14,8 +14,8 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			putchar(c)
-				c++;
+			putchar(c);
+			c++;
 		}
 	while
 		(d <= 'Z') {
