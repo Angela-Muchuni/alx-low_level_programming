@@ -1,11 +1,11 @@
-#include "main.h"
+#include "main.h
 #include <stdio.h>
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
  * but for multiples of three prints Fizz instead of the number
- * and for the multiples of five prints Buzz
- * Return: Always 0 (Success)
+ * and for the multiples of five prints Buzz instead of the number
+ * Return: Always 0
  */
 
 int main(void)
@@ -33,5 +33,5 @@ int main(void)
 	}
 	printf("\n");
 
-	return (0);
+	return(0);
 }
