@@ -1,11 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *  *Description:main-Prints out a string to stdout.
- *  *Return:0 if success.
+ * main - C program that prints exactly
+ * with proper grammar, but the outcome is a piece of art,
+ * followed by a new line.
+ * Return: 0(SUCCESS)
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+	char str[] = "with proper grammar, but the outcome is a piece of art,";
+
+	printf("%s\n", str);
+	return (0);
 }
 
