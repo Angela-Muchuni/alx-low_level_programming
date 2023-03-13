@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_chessboard - Entry point
- * @a: array
+ * print_chessboard - prints chessboard
+ * @a: chessboard to be printed
  * Return: 0(success)
  */
 void print_chessboard(char (*a)[8])
